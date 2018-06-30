@@ -21,9 +21,6 @@ sum(df[,6]=="N-")/3001
 #only 7% concern 56% of them have chances to be persuaded.
 #which means optimally only 3% will never purchase concerning on M
 
-
-#对比一下其他
-
 nrow(df[which(df$EndPoint=="E1"| df$EndPoint == "E3"| df$EndPoint=="E5"),])/9792
 
 
